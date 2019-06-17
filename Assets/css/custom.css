@@ -1,0 +1,33 @@
+
+/*
+* TAG SECTION
+*/
+.tag:not(body).is-medium {
+    font-size: 1rem;
+}
+.tag:not(body) {
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    color: #4a4a4a;
+    display: inline-flex;
+    font-size: 0.75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0;
+    white-space: nowrap;
+}
+a.user-name{
+    cursor: pointer;
+}
+.is-light{
+    background-color: whitesmoke;
+}
+.bottom-border{
+    border-bottom: none;
+}
+.is-hoverable tbody tr:not(.is-selected):hover {
+    background-color: #fafafa;
+}
